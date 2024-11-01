@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quicksand:wght@300..700&display=swap");
+
+@font-face {
+  font-family: heading-font;
+  src: url("../assets/fonts/EllenLuff\ -\ Larken\ Bold.otf");
+}
+
+$heading-font: heading-font;
+$primary-font: "Quicksand", sans-serif;
+$accent-font: "Playwrite GB S", sans-serif;
