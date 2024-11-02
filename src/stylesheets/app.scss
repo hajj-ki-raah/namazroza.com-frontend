@@ -21,4 +21,30 @@ h6 {
 a {
   text-decoration: none;
   color: inherit;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #bcbcbc;
+
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover::before {
+    width: 100%;
+  }
+}
+
+.page-not-found {
+  text-align: center;
+
+  padding: 10vh 5vw;
+  font-size: 8vw;
+  font-family: $heading-font;
+  color: #bcbcbc;
 }
